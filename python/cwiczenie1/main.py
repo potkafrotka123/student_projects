@@ -1,10 +1,15 @@
 from rich.console import Console
-from rich.table import Table
 
 console = Console()
 
-table = Table(show_header=True, header_style="bold magenta")
-table.add_column("Date")
-table.add_row("12.03.2024")
-console.print(table)
+#a = 0
+
+#a = int(input("Podaj temperature: "))
+
+#if a>=-5 and a<10:
+	print("Zima")
+#if a>=0 and a<10:
+	print("Przedwiośnie")
+#if a>10 and a<15:
+	print("Wiosna")
 
