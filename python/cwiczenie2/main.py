@@ -12,3 +12,9 @@ if suma == 0:
 	print('Tablica jest pusta')
 else:
 	print('Suma wartosci wynosi: '+str(suma))
+
+#Sprawdzanie czy suma jest parzysta
+if suma % 2 == 0:
+	print('Liczba jest parzysta')
+else:
+	print('Liczba nie jest parzysta')
